@@ -105,9 +105,12 @@ RASCUNHO METODOS
     }
 
     public boolean ehValidoParaVenda() {
-        return status == StatusIngresso.DISPONIVEL || status == StatusIngresso.REVENDA;
+        return status == StatusIngresso.DISPONIVEL || status == StatusIngresso.REVENDA; //TODO tirar revenda
     }
 
+    public void selecionarParaCompra() {
+    
+    }
 }
 
  */
